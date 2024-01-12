@@ -1,0 +1,17 @@
+.fondo{
+    background-color: darkgray;
+    .miTexto{
+        font-size: 80px;
+        color: green;
+    }
+}
+.title{
+    font-size: 40px;
+    color: fuchsia;
+}
+.logo{
+    width: 200px;
+}
+#principal{
+    font-size: 50px;
+}
