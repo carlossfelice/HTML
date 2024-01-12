@@ -1,6 +1,6 @@
 .fondo{
-    background-color: darkgray;
-    .miTexto{
+    background-color: rgb(133, 103, 103);
+.miTexto{
         font-size: 80px;
         color: green;
     }
@@ -8,16 +8,26 @@
 .title{
     font-size: 2.8em;
     color: fuchsia;
+    
+
+    
 }
 .logo{
-    width: 200px;
+    width: 300px;
+    height:300px;
 }
 .cards{
-    border:2px solid black ;
+    border: 2px solid black ;
     width: fit-content;/*ancho de imagen*/
-    padding: 0px 1em 1em 1em;/*despegarse right down left up*/
+    padding: 1em 1em 2em 1em;/*despegarse right down left up*/
     border-radius: 10%;/*redondeado en porcentaje*/
     transition: 1s;/*relentiza*/
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+    
+
 }
 .cards:hover{
     background-color: rgb(28, 226, 127);/*seudo selector*/
@@ -26,8 +36,25 @@
     font-size: 4.5em;
 }
 #titulos{
-    border: 2px solid black ;
-    width: 65vw;/*viewport width 65% porciento de la pagina*/
+    width: 60vw;/*viewport width 65% porciento de la pagina*/
     margin: auto; /*centrarse*/
     padding: 3em;/*separar*/ 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid;
+}
+#cards-container{
+
+    width: 85vw;
+    margin: auto;
+    margin-top: 1.5em;
+    border: 5px solid rgb(196, 100, 100);
+    border-radius: 15px ;
+    padding: 2em;
+    display: flex;
+    /*LOGICA DE FLEX posiciona los elementos en una fila*/
+    flex-direction: row;
+    justify-content: space-around;/*distancia entre si*/
 }
