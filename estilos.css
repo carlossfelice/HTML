@@ -6,12 +6,28 @@
     }
 }
 .title{
-    font-size: 40px;
+    font-size: 2.8em;
     color: fuchsia;
 }
 .logo{
     width: 200px;
 }
+.cards{
+    border:2px solid black ;
+    width: fit-content;/*ancho de imagen*/
+    padding: 0px 1em 1em 1em;/*despegarse right down left up*/
+    border-radius: 10%;/*redondeado en porcentaje*/
+    transition: 1s;/*relentiza*/
+}
+.cards:hover{
+    background-color: rgb(28, 226, 127);/*seudo selector*/
+}
 #principal{
-    font-size: 50px;
+    font-size: 4.5em;
+}
+#titulos{
+    border: 2px solid black ;
+    width: 65vw;/*viewport width 65% porciento de la pagina*/
+    margin: auto; /*centrarse*/
+    padding: 3em;/*separar*/ 
 }
